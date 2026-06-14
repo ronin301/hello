@@ -1,0 +1,78 @@
+{
+  "projectId": "1781464400149",
+  "projectName": "hello",
+  "githubPath": "/hello",
+  "createdAt": "2026-06-14T19:13:20.149Z",
+  "updatedAt": "2026-06-14T19:35:45.940Z",
+  "fileList": [
+    "hello/backups/test-v1.js",
+    "hello/contact.html",
+    "hello/dashboard.html",
+    "hello/index.html",
+    "hello/style.css",
+    "hello/test.js"
+  ],
+  "settings": {
+    "ai": {
+      "activeProvider": "openrouter",
+      "providers": {
+        "gemini": {
+          "apiKey": "",
+          "model": "gemini-2.0-flash",
+          "baseUrl": "https://generativelanguage.googleapis.com/v1beta/models"
+        },
+        "openai": {
+          "apiKey": "",
+          "model": "gpt-4.1-mini",
+          "baseUrl": "https://api.openai.com/v1/chat/completions"
+        },
+        "claude": {
+          "apiKey": "",
+          "model": "claude-3-5-sonnet-latest",
+          "baseUrl": "https://api.anthropic.com/v1/messages"
+        },
+        "openrouter": {
+          "apiKey": "",
+          "model": "openai/gpt-oss-20b:free",
+          "baseUrl": "https://openrouter.ai/api/v1/chat/completions",
+          "siteUrl": "https://folder-agent.local",
+          "siteName": "Folder Agent"
+        }
+      }
+    },
+    "githubBranch": "main"
+  },
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "GENERATE: Create a JavaScript file named test.js that prints Hello World to the console.",
+      "time": "12:56:15 am"
+    },
+    {
+      "role": "assistant",
+      "content": "Created test.js to print Hello World\n\nFiles detected: hello/contact.html, hello/dashboard.html, hello/index.html, hello/style.css, test.js\n\nPreview ready with 1 staged item(s). No commit has been created yet.",
+      "time": "12:56:32 am"
+    },
+    {
+      "role": "assistant",
+      "content": "Commit failed: Repository rule violations found\n\nSecret detected in content\n\n",
+      "time": "12:59:20 am"
+    }
+  ],
+  "buildHistory": [
+    {
+      "prompt": "Create a JavaScript file named test.js that prints Hello World to the console.",
+      "file": "test.js",
+      "action": "update",
+      "time": "2026-06-14T19:29:19.104Z",
+      "commitMessage": "Add test.js that prints Hello World to console"
+    },
+    {
+      "prompt": "Create a JavaScript file named test.js that prints Hello World to the console.",
+      "file": "test.js",
+      "action": "update",
+      "time": "2026-06-14T19:35:45.042Z",
+      "commitMessage": "Add test.js that prints Hello World to console"
+    }
+  ]
+}
