@@ -1,0 +1,40 @@
+{
+  "projectId": "1781552802228",
+  "projectName": "QQQQ",
+  "githubPath": "/QQQQ",
+  "createdAt": "2026-06-15T19:46:42.228Z",
+  "updatedAt": "2026-06-15T19:46:49.879Z",
+  "fileList": [
+    "app.js",
+    "backups/.gitkeep",
+    "index.html",
+    "style.css"
+  ],
+  "settings": {
+    "ai": {
+      "activeProvider": "gemini",
+      "providers": {
+        "gemini": {
+          "model": "gemini-1",
+          "apiKey": ""
+        },
+        "openai": {
+          "model": "gpt-4o-mini",
+          "apiKey": ""
+        },
+        "claude": {
+          "model": "claude-2.1",
+          "apiKey": ""
+        },
+        "openrouter": {
+          "model": "openrouter-default",
+          "apiKey": ""
+        }
+      }
+    },
+    "githubBranch": "main",
+    "githubToken": ""
+  },
+  "chatHistory": [],
+  "buildHistory": []
+}
